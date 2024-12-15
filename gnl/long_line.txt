@@ -1,0 +1,1 @@
+This is a very long line of text that does not contain any newline characters, so it should be read in one go or in parts depending on the buffer size.
