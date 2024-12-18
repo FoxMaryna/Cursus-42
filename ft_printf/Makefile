@@ -29,7 +29,7 @@ $(LIBFT):
 	make -C $(LIBFT_SRCS) all
 
 %.o: %.c $(HEADER)
-	$(CC) $(CFLAGC) -I ./ -c $< -o $@
+	$(CC) $(CFLAGS) -I ./ -c $< -o $@
 
 clean:
 	rm -f $(OBJS)
